@@ -1,0 +1,83 @@
+
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=League+Gothic&family=Sedgwick+Ave+Display&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    user-select: none;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    
+  }
+
+.header{
+  font-family: 'League Gothic', sans-serif;
+  font-size: 20px;
+  font-weight: 300PX;
+  height: 15vh;
+  line-height: 10vh;
+  text-align: center;
+   background-color: #80BB35;
+}
+
+
+.sidebar__menu{
+  margin-top: 30px;
+  background: white;
+  margin-left: 12px;
+  border: 1px solid #EBEBEB;
+}
+nav ul{
+    background: #fff;
+    height: 100%;
+    list-style: none;
+  }
+  nav ul li{
+    line-height: 60px;
+    border-top: 1px solid rgba(255,255,255,0.1);
+  }
+
+  nav ul li a{
+    position: relative;
+    color: black;
+    text-decoration: none;
+    font-size:15px;
+    font-weight: 500;
+    width: 100%;
+   
+  }
+ 
+  nav ul li a:hover{
+    color: #80BB35;
+    
+  }
+
+  nav ul ul li{
+    line-height: 42px;
+    border-top: none;
+  }
+  nav ul ul li a{
+    font-size: 17px;
+    color: #e6e6e6;
+   
+  }
+  
+ 
+.body{
+    background-color: blue;
+}
+.content{
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-between;
+}
+.content__img{
+    width: 350px;
+    height: 400px;
+}
+.content__text{
+  text-align: justify;
+}
+.content__heading1{
+  font-weight: bold;
+}
