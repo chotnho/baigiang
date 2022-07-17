@@ -81,3 +81,13 @@ nav ul{
 .content__heading1{
   font-weight: bold;
 }
+.content_video{
+  align-items: center;
+}
+.content__video{
+ 
+  
+  width: 700px;
+  height: 400px;
+  
+}
